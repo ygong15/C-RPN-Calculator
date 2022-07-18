@@ -1,0 +1,23 @@
+infix: 4 + 8 * 3
+postfix: 4 8 3 * +
+result: 28.000000
+infix: ( 4 + 8 ) * 3
+postfix: 4 8 + 3 *
+result: 36.000000
+infix: 6 + 9 + 4 ^ 2
+postfix: 6 9 + 4 2 ^ +
+result: 31.000000
+infix: 46 + ( 8 * 4 ) / 2
+postfix: 46 8 4 * 2 / +
+result: 62.000000
+infix: 7 ^ 2 * ( 25 + 10 / 5 ) - 13
+postfix: 7 2 ^ 25 10 5 / + * 13 -
+result: 1310.000000
+infix: ( 18 / 3 ) ^ 2 + ( ( 13 + 7 ) * 5 ^ 2 )
+postfix: 18 3 / 2 ^ 13 7 + 5 2 ^ * +
+result: 536.000000
+infix: ( 18 / 3 ) ^ 2 + ( ( 13 + 7 ) ) * 5 ^ 2 )
+postfix: 18 3 / 2 ^ 13 7 + 5 2 ^ * +
+result: invalid operatorthe expression has unpaired ()
+infix: ( 18 / 3 ) ^ 2 + ( ( 13 + 7 ) * 5 ? 2 )postfix: 18 3 / 2 ^ 13 7 + 5 ? 2
+result: invalid operatorthe expression has unpaired ()invalid operator
